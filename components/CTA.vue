@@ -7,7 +7,7 @@
                         Where do we start?
                     </h2>
                     <p class="text-base text-gray-700 mt-3 mb-6">
-                        Schedule a call so I can learn about your product and we can discuss the best way to help you meet your goals. I only work with two people each month so book a call now to avoid missing out.
+                        Would you like to schedule a call to learn more about my product and how we can work together to achieve your goals? I only have two slots available each month, so book now to reserve your spot.
                     </p>
     
                     <nuxt-link to="/contact" class="button button-dark">Level up your business</nuxt-link>

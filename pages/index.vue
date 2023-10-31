@@ -9,10 +9,10 @@
         <div class="container">
             <div class="md:max-w-3xl mx-auto text-center">
                 <span class="text-xl md:text-2xl text-gray-700 font-semibold">
-                    Design. Build. Improve.
+                    Plan. Execute. Evolve.
                 </span>
                 <h1 class="text-3xl md:text-6xl text-gray-800 font-semibold leading-2 mt-7 mb-10">
-                    I create beautiful websites your users will love
+                    I design websites that are visually appealing
                 </h1>
                 <nuxt-link to="/contact" class="button button-primary">Make it happen</nuxt-link>
             </div>
@@ -36,7 +36,7 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        I make sure your website is performing its best by thoroughly reviewing it before making any changes.
+                        I perform a comprehensive review of your website before making any changes to guarantee that it is performing optimally.
                     </p>
                 </div>
 
@@ -50,7 +50,7 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        We discuss what you are trying to achieve, and place goals on your website planning how to achieve that.
+                        We work with you to define your goals and develop a website plan that will help you achieve them.
                     </p>
                 </div>
 
@@ -64,7 +64,7 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        I design your website to be as easy to use as possible while guiding users towards the end goal.
+                        I create user-friendly websites that guide users to the desired outcome.
                     </p>
                 </div>
 
@@ -78,7 +78,7 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        I build with your goals in mind, whether you want a simple flexible website, a custom storefront or a SaaS product.
+                        I build websites, e-commerce platforms, and SaaS applications that are aligned with your strategic goals and objectives.
                     </p>
                 </div>
 
@@ -92,7 +92,7 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        I ensure your website is of excellent quality by thoroughly testing using multiple approaches.
+                        I guarantee the high quality of your website by performing comprehensive tests using various methods.
                     </p>
                 </div>
 
@@ -106,13 +106,13 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        Your website is always growing. Whether you’re adding new features or making improvements I’m here to help.
+                        Your website is constantly evolving, whether you're adding new features or making improvements. I'm here to help you every step of the way.
                     </p>
                 </div>
             </div>
 
             <div class="flex justify-center pt-6">
-                <nuxt-link to="/" class="font-medium flex text-sm md:text-base items-center gap-4 hover:underline underline-offset-8">
+                <nuxt-link to="/services" class="font-medium flex text-sm md:text-base items-center gap-4 hover:underline underline-offset-8">
                     Find out more about my services 
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14m-4 4l4-4m-4-4l4 4"/></svg>

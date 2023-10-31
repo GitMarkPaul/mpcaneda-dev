@@ -1,6 +1,6 @@
 <template>
 
-    <div class="fixed bottom-5 right-3 left-3 py-2 px-4 rounded-xl border shadow-sm bg-gray-100 z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4" role="tab">
+    <div class="fixed bottom-3 right-3 left-3 py-2 px-4 rounded-xl border shadow-sm bg-gray-100 z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4" role="tab">
         <nuxt-link to="/" class="text-xs text-gray-700 flex flex-col items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M10.55 2.532a2.25 2.25 0 0 1 2.9 0l6.75 5.692c.507.428.8 1.057.8 1.72v9.31a1.75 1.75 0 0 1-1.75 1.75h-3.5a1.75 1.75 0 0 1-1.75-1.75v-5.007a.25.25 0 0 0-.25-.25h-3.5a.25.25 0 0 0-.25.25v5.007a1.75 1.75 0 0 1-1.75 1.75h-3.5A1.75 1.75 0 0 1 3 19.254v-9.31c0-.663.293-1.292.8-1.72l6.75-5.692Zm1.933 1.147a.75.75 0 0 0-.966 0L4.767 9.37a.75.75 0 0 0-.267.573v9.31c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-5.007c0-.967.784-1.75 1.75-1.75h3.5c.966 0 1.75.783 1.75 1.75v5.007c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-9.31a.75.75 0 0 0-.267-.573l-6.75-5.692Z"/></svg>
 
@@ -28,7 +28,7 @@
             <div class="container">
                 <div class="flex items-center justify-between">
                     <nuxt-link to="/" class="text-base font-medium flex items-center gap-2">
-                        <img class="w-10" src="logo.svg" alt="Mark Paul Cañeda">
+                        <img class="w-10" src="/logo.svg" alt="Mark Paul Cañeda">
                         Mark Paul Cañeda
                     </nuxt-link>
 
@@ -53,11 +53,11 @@
         </nav>
     </header>
 
-    <main>
+    <main class="px-3 md:px-0">
         <slot />
     </main>
 
-    <footer class="py-24">
+    <footer class="py-24 px-3 md:px-0">
         <div class="container">
             <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
                 <div class="sm:col-span-2">
@@ -66,7 +66,7 @@
                     </h2>
 
                     <p class="text-sm text-gray-700 mt-3 lg:max-w-md">
-                        I email once a month to keep you updated with my new discoveries, latest projects and featured articles.
+                        I send a monthly email newsletter to keep you informed about my latest discoveries, and projects.
                     </p>
 
                     <div class="flex flex-col mx-auto gap-3 mt-6 space-y-3 md:space-y-0 md:flex-row">

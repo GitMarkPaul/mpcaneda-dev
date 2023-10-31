@@ -9,7 +9,7 @@
         <div class="container">
             <div class="md:max-w-3xl mx-auto text-center">
                 <h1 class="text-3xl md:text-6xl text-gray-800 font-semibold leading-2 mt-7 mb-10">
-                    I provide everything you need for your perfect website
+                    I'm your one-stop shop for your perfect website
                 </h1>
             </div>
 
@@ -24,7 +24,7 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        I make sure your website is performing its best by thoroughly reviewing it before making any changes. I look for potential issues a user might face, big or small, and make suggestions about how improvements could be made to fix that, ensuring your user is always on the right path to achieve their goals.
+                        I provide a comprehensive review of your website before making any changes to ensure optimal performance. I identify and address potential user issues, both big and small, to ensure that your users can easily achieve their goals.
                     </p>
                 </div>
 
@@ -38,7 +38,7 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        We discuss what you are trying to achieve, and place goals on your website planning how to achieve that. For example, a product might use a small website to collect initial customers which can be grown into a much larger website later on with leads ready-to-go.
+                        We work with you to define your goals and develop a website plan to achieve them. For example, a small website might be used to collect initial customers, which can then be grown into a larger website with qualified leads.
                     </p>
                 </div>
 
@@ -52,7 +52,7 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        I design your website to be as easy to use as possible while guiding users towards the end goal. Putting the user’s experience first, whether they’re looking to subscribe, trying to contact you, or just gathering information, will ensure more loyal users increasing long term sales.
+                        I design user-friendly websites that guide users towards your desired outcome. By putting the user experience first, you can ensure more loyal users and increased long-term sales.
                     </p>
                 </div>
 
@@ -66,7 +66,7 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        I build with your goals in mind, whether you want a simple flexible website, a custom storefront or a SaaS product. I focus on making websites easy to work with so your team have full control, while keeping code maintainable for easy updates.
+                        I design and develop websites that are easy for your team to manage and update, while keeping the code maintainable for future changes. Whether you want a simple, flexible website, a custom storefront, or a SaaS product, I can build a solution that meets your unique needs and goals.
                     </p>
                 </div>
 
@@ -80,7 +80,7 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        I ensure your website is of excellent quality by thoroughly testing with multiple approaches. Whether you’re looking to ensure consistency across multiple browsers, want reassurance code works as expected or want to isolate visual components, testing helps guarantee everything works as expected.
+                        I use a variety of testing methods to ensure that your website is of the highest quality. I can test for cross-browser compatibility, code functionality, and visual component isolation to guarantee that everything works as expected.
                     </p>
                 </div>
 
@@ -94,7 +94,7 @@
                     </h3>
 
                     <p class="text-gray-500 dark:text-gray-300">
-                        Your website is always growing. Whether you’re adding new features or making improvements I’m here to help. I won’t leave you guessing how your own website works and will always be available to answer any questions you might have.
+                        As your website evolves, I can help you add new features, make improvements, and answer any questions you may have. I won't leave you in the dark about how your own website works.
                     </p>
                 </div>
             </div>
