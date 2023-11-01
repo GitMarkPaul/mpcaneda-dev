@@ -112,14 +112,10 @@
 </script>
 
 <template>
-    <section class="py-24">
-        <div class="container">
-            <div class="md:max-w-3xl mx-auto text-center">
-                <h1 class="text-3xl md:text-6xl text-gray-800 font-semibold leading-2 mt-7 mb-10">
-                    Projects
-                </h1>
-            </div>
+    <PageBanner title="Projects" />
 
+    <section class="pb-24">
+        <div class="container">
             <div class="mt-16 md:mt-24 space-y-24">
                 <div v-for="project in projects" :key="project.title" class="md:flex md:items-center md:gap-10 group">
                     <div class="mt-4 lg:w-1/2 lg:mt-0">
@@ -131,13 +127,13 @@
                     </div>
 
                     <div class="lg:w-1/2 mt-6 md:mt-0">
-                        <p class="text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">
+                        <p class="text-lg tracking-wider text-primary-500 uppercase dark:text-primary-200">
                             {{ project.category }}
                         </p>
                         <h2 class="my-3 text-4xl font-semibold text-gray-800 dark:text-white group-hover:underline">
                             {{ project.title }}
                         </h2>
-                        <p class="text-sm md:text-base md:max-w-lg line-clamp-4 mb-5">
+                        <p class="text-base md:max-w-lg line-clamp-4 mb-8 dark:text-gray-100">
                             {{ project.description }}
                         </p>
 
