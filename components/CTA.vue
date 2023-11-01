@@ -1,7 +1,7 @@
 <template>
     <section class="py-24">
         <div class="container">
-            <div class="bg-primary-200 p-7 md:p-12 rounded-xl md:max-w-5xl mx-auto">
+            <div class="bg-primary-200 p-7 md:p-12 rounded-xl md:max-w-5xl mx-auto" data-aos="fade-up">
                 <div>
                     <h2 class="text-3xl font-semibold text-gray-700 lg:text-4xl">
                         Where do we start?

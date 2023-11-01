@@ -1,22 +1,26 @@
+<script setup>
+    import 'animate.css';
+</script>
+
 <template>
     <div class="bg-white dark:bg-gray-800">
-        <div class="tab-menu fixed bottom-3 right-5 left-5 py-2 px-4 rounded-xl border shadow-sm bg-gray-100/60 backdrop-blur-md z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4 dark:bg-gray-700/60 dark:border-gray-600" role="tab">
-            <nuxt-link to="/" class="text-xs text-gray-700 flex flex-col items-center dark:text-gray-100">
+        <div class="tab-menu fixed bottom-2 right-2 left-2 py-3 px-4 rounded-2xl border shadow-sm bg-gray-100/60 backdrop-blur-md z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4 dark:bg-gray-700/60 dark:border-gray-600 animate__animated animate__bounceInUp" role="tab">
+            <nuxt-link to="/" class="text-xs text-gray-700 flex flex-col items-center gap-1 dark:text-gray-100">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M10.55 2.532a2.25 2.25 0 0 1 2.9 0l6.75 5.692c.507.428.8 1.057.8 1.72v9.31a1.75 1.75 0 0 1-1.75 1.75h-3.5a1.75 1.75 0 0 1-1.75-1.75v-5.007a.25.25 0 0 0-.25-.25h-3.5a.25.25 0 0 0-.25.25v5.007a1.75 1.75 0 0 1-1.75 1.75h-3.5A1.75 1.75 0 0 1 3 19.254v-9.31c0-.663.293-1.292.8-1.72l6.75-5.692Zm1.933 1.147a.75.75 0 0 0-.966 0L4.767 9.37a.75.75 0 0 0-.267.573v9.31c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-5.007c0-.967.784-1.75 1.75-1.75h3.5c.966 0 1.75.783 1.75 1.75v5.007c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-9.31a.75.75 0 0 0-.267-.573l-6.75-5.692Z"/></svg>
     
                 Home
             </nuxt-link>
-            <nuxt-link to="/about" class="text-xs text-gray-700 flex flex-col items-center dark:text-gray-100">
+            <nuxt-link to="/about" class="text-xs text-gray-700 flex flex-col items-center gap-1 dark:text-gray-100">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M17.755 14a2.249 2.249 0 0 1 2.248 2.25v.575c0 .894-.32 1.759-.9 2.438c-1.57 1.833-3.957 2.738-7.103 2.738s-5.532-.905-7.098-2.74a3.75 3.75 0 0 1-.898-2.434v-.578A2.249 2.249 0 0 1 6.253 14h11.502Zm0 1.5H6.252a.749.749 0 0 0-.75.75v.577c0 .535.192 1.053.54 1.46c1.253 1.469 3.22 2.214 5.957 2.214c2.739 0 4.706-.745 5.963-2.213a2.25 2.25 0 0 0 .54-1.463v-.576a.749.749 0 0 0-.748-.749ZM12 2.005a5 5 0 1 1 0 10a5 5 0 0 1 0-10Zm0 1.5a3.5 3.5 0 1 0 0 7a3.5 3.5 0 0 0 0-7Z"/></svg>
     
                 About
             </nuxt-link>
-            <nuxt-link to="/projects" class="text-xs text-gray-700 flex flex-col items-center dark:text-gray-100">
+            <nuxt-link to="/projects" class="text-xs text-gray-700 flex flex-col items-center gap-1 dark:text-gray-100">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.001a7.25 7.25 0 0 1 7.25 7.25c0 2.096-.9 4.02-2.663 5.742a.75.75 0 0 0-.175.265l-.032.103l-1.13 4.895a2.25 2.25 0 0 1-2.02 1.737l-.173.007h-2.114a2.25 2.25 0 0 1-2.147-1.577l-.045-.167l-1.13-4.895a.75.75 0 0 0-.206-.368c-1.68-1.64-2.577-3.463-2.659-5.444l-.006-.298l.004-.24A7.25 7.25 0 0 1 12 2.002Zm2.115 16.498H9.884l.329 1.42a.75.75 0 0 0 .627.573l.103.008h2.114a.75.75 0 0 0 .7-.483l.03-.099l.328-1.419ZM12 3.501a5.75 5.75 0 0 0-5.746 5.53l-.004.22l.007.277c.076 1.563.8 3.02 2.206 4.392c.264.258.46.576.571.926l.049.178l.455 1.975h4.923l.458-1.976a2.25 2.25 0 0 1 .493-.97l.127-.133c1.404-1.373 2.128-2.828 2.204-4.392l.007-.277l-.004-.22A5.75 5.75 0 0 0 12 3.5Z"/></svg>
     
                 Projects
             </nuxt-link>
-            <nuxt-link to="/services" class="text-xs text-gray-700 flex flex-col items-center dark:text-gray-100">
+            <nuxt-link to="/services" class="text-xs text-gray-700 flex flex-col items-center gap-1 dark:text-gray-100">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m18.492 2.33l3.179 3.18a2.25 2.25 0 0 1 0 3.182l-2.584 2.584A2.25 2.25 0 0 1 21 13.5v5.25A2.25 2.25 0 0 1 18.75 21H5.25A2.25 2.25 0 0 1 3 18.75V5.25A2.25 2.25 0 0 1 5.25 3h5.25a2.25 2.25 0 0 1 2.225 1.915L15.31 2.33a2.25 2.25 0 0 1 3.182 0ZM4.5 18.75c0 .415.336.75.75.75h5.999l.001-6.75H4.5v6Zm8.249.75h6.001a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75h-6.001v6.75ZM10.5 4.5H5.25a.75.75 0 0 0-.75.75v6h6.75v-6a.75.75 0 0 0-.75-.75Zm2.25 4.81v1.94h1.94l-1.94-1.94Zm3.62-5.918L13.193 6.57a.75.75 0 0 0 0 1.061l3.179 3.179a.75.75 0 0 0 1.06 0l3.18-3.179a.75.75 0 0 0 0-1.06l-3.18-3.18a.75.75 0 0 0-1.06 0Z"/></svg>
     
                 Services
@@ -28,7 +32,7 @@
                 <div class="container">
                     <div class="flex items-center justify-between">
                         <nuxt-link to="/" class="text-base font-medium flex items-center gap-2 dark:text-gray-100">
-                            <img class="w-10" src="/logo.svg" alt="Mark Paul Cañeda">
+                            <img class="w-10 dark:grayscale dark:invert" src="/logo.svg" alt="Mark Paul Cañeda">
                             Mark Paul Cañeda
                         </nuxt-link>
     

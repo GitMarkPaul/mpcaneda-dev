@@ -118,7 +118,7 @@
         <div class="container">
             <div class="mt-16 md:mt-24 space-y-24">
                 <div v-for="project in projects" :key="project.title" class="md:flex md:items-center md:gap-10 group">
-                    <div class="mt-4 lg:w-1/2 lg:mt-0">
+                    <div class="mt-4 lg:w-1/2 lg:mt-0" data-aos="fade-up" data-aos-duration="500">
                         <div class="relative group grid h-[24rem] w-full flex-col items-end justify-start overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
                             <div class="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-cover bg-clip-border bg-center text-gray-700 shadow-none transition-all duration-300 ease-in-out group-hover:scale-125" :style="`background-image: url('${project.image}')`">
                                 <div class="absolute inset-0 w-full h-full to-bg-black-10 bg-gradient-to-t from-black/20 via-black/20"></div>
@@ -126,7 +126,7 @@
                         </div>
                     </div>
 
-                    <div class="lg:w-1/2 mt-6 md:mt-0">
+                    <div class="lg:w-1/2 mt-6 md:mt-0" data-aos="fade-up" data-aos-duration="1000">
                         <p class="text-lg tracking-wider text-primary-500 uppercase dark:text-primary-200">
                             {{ project.category }}
                         </p>
