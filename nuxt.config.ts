@@ -15,6 +15,12 @@ export default defineNuxtConfig({
 			autoprefixer: {},
 		},
 	},
+	modules: [
+		'@nuxtjs/color-mode',
+	],
+	colorMode: {
+		classSuffix: ''
+	},
 	app: {
 		baseURL: '/mpcaneda-dev/',
     	buildAssetsDir: 'assets',
