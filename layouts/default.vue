@@ -1,6 +1,6 @@
 <template>
     <div class="bg-white dark:bg-gray-800">
-        <div class="tab-menu fixed bottom-3 right-5 left-5 py-2 px-4 rounded-xl border shadow-sm bg-gray-100 backdrop-blur-md z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4 dark:bg-gray-700/60 dark:border-gray-600" role="tab">
+        <div class="tab-menu fixed bottom-3 right-5 left-5 py-2 px-4 rounded-xl border shadow-sm bg-gray-100/60 backdrop-blur-md z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4 dark:bg-gray-700/60 dark:border-gray-600" role="tab">
             <nuxt-link to="/" class="text-xs text-gray-700 flex flex-col items-center dark:text-gray-100">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M10.55 2.532a2.25 2.25 0 0 1 2.9 0l6.75 5.692c.507.428.8 1.057.8 1.72v9.31a1.75 1.75 0 0 1-1.75 1.75h-3.5a1.75 1.75 0 0 1-1.75-1.75v-5.007a.25.25 0 0 0-.25-.25h-3.5a.25.25 0 0 0-.25.25v5.007a1.75 1.75 0 0 1-1.75 1.75h-3.5A1.75 1.75 0 0 1 3 19.254v-9.31c0-.663.293-1.292.8-1.72l6.75-5.692Zm1.933 1.147a.75.75 0 0 0-.966 0L4.767 9.37a.75.75 0 0 0-.267.573v9.31c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-5.007c0-.967.784-1.75 1.75-1.75h3.5c.966 0 1.75.783 1.75 1.75v5.007c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-9.31a.75.75 0 0 0-.267-.573l-6.75-5.692Z"/></svg>
     
@@ -32,8 +32,8 @@
                             Mark Paul Cañeda
                         </nuxt-link>
     
-                        <div class="nav-menu hidden md:flex items-center gap-4">
-                            <ul class="flex items-center gap-2">
+                        <div class="nav-menu flex items-center gap-4">
+                            <ul class="hidden md:flex items-center gap-2">
                                 <li>
                                     <nuxt-link to="/about" class="button button-link">About</nuxt-link>
                                 </li>
@@ -47,6 +47,9 @@
                                     <nuxt-link to="/contact" class="button button-secondary">Hire me today</nuxt-link>
                                 </li>
                             </ul>
+                            <button type="button" class="button button-link px-3" aria-label="Dark Mode">
+                                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="26px" viewBox="0 0 24 24" width="26px" fill="#000000"><g><rect fill="none" height="24" width="24"/></g><g><g><path d="M8.1 14.15c1.67.48 2.9 2.02 2.9 3.85 0 .68-.19 1.31-.48 1.87.48.09.97.14 1.48.14 1.48 0 2.9-.41 4.13-1.15-2.62-.92-5.23-2.82-6.8-5.86-1.59-3.06-1.55-5.91-1.04-8.1-2.57 1.33-4.3 4.01-4.3 7.1h.02c1.65 0 3.17.83 4.09 2.15z" opacity=".3"/><path d="M19.78 17.51c-2.47 0-6.57-1.33-8.68-5.43-2.33-4.51-.5-8.48.53-10.07C6.27 2.2 1.98 6.59 1.98 12c0 .14.02.28.02.42.61-.26 1.28-.42 1.98-.42 0-3.09 1.73-5.77 4.3-7.1-.5 2.19-.54 5.04 1.04 8.1 1.57 3.04 4.18 4.95 6.8 5.86-1.23.74-2.65 1.15-4.13 1.15-.5 0-1-.05-1.48-.14-.37.7-.94 1.27-1.64 1.64.98.32 2.03.5 3.11.5 3.5 0 6.58-1.8 8.37-4.52-.17.01-.37.02-.57.02z"/><path d="M7 16h-.18C6.4 14.84 5.3 14 4 14c-1.66 0-3 1.34-3 3s1.34 3 3 3h3c1.1 0 2-.9 2-2s-.9-2-2-2z"/></g></g></svg>
+                            </button>
                         </div>
                     </div>
                 </div>

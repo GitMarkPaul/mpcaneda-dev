@@ -8,7 +8,7 @@
     <section class="py-24 dark:bg-gray-800">
         <div class="container">
             <div class="md:max-w-3xl mx-auto text-center">
-                <span class="text-xl md:text-2xl text-gray-700 font-semibold dark:text-gray-100">
+                <span class="text-xl text-gray-700 font-semibold dark:text-gray-100">
                     Plan. Execute. Evolve.
                 </span>
                 <h1 class="text-4xl md:text-6xl text-gray-800 font-semibold leading-2 mt-3 md:mt-7 mb-10 dark:text-gray-50">
@@ -21,7 +21,7 @@
 
     <section class="py-24 dark:bg-gray-800">
         <div class="container">
-            <h2 class="text-3xl text-center font-semibold text-gray-800 lg:text-4xl dark:text-white">
+            <h2 class="title">
                 Everything you need for a perfect website
             </h2>
 

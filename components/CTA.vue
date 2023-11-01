@@ -1,9 +1,9 @@
 <template>
-    <section class="py-24 bg-gray-50 dark:bg-gray-800">
+    <section class="py-24">
         <div class="container">
             <div class="bg-primary-200 p-7 md:p-12 rounded-xl md:max-w-5xl mx-auto">
                 <div>
-                    <h2 class="text-2xl font-semibold text-gray-800 lg:text-4xl">
+                    <h2 class="text-3xl font-semibold text-gray-700 lg:text-4xl">
                         Where do we start?
                     </h2>
                     <p class="text-base text-gray-700 mt-3 mb-6">
