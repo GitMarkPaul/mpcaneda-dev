@@ -5,8 +5,8 @@
 </script>
 
 <template>
-    <div class="bg-white dark:bg-gray-800">
-        <div class="tab-menu fixed bottom-0 right-0 left-0 py-3 px-4 rounded-2xl border shadow-sm bg-gray-100/60 backdrop-blur-md z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4 dark:bg-gray-700/60 dark:border-gray-600 animate__animated animate__bounceInUp" role="tab">
+    <div class="bg-white dark:bg-gray-950">
+        <div class="tab-menu fixed bottom-2 right-2 left-2 py-3 px-4 rounded-2xl border shadow-sm bg-gray-100/60 backdrop-blur-md z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4 dark:bg-gray-800/60 dark:border-gray-700 animate__animated animate__bounceInUp" role="tab">
             <nuxt-link to="/" class="text-xs text-gray-700 flex flex-col items-center gap-1 dark:text-gray-100">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M10.55 2.532a2.25 2.25 0 0 1 2.9 0l6.75 5.692c.507.428.8 1.057.8 1.72v9.31a1.75 1.75 0 0 1-1.75 1.75h-3.5a1.75 1.75 0 0 1-1.75-1.75v-5.007a.25.25 0 0 0-.25-.25h-3.5a.25.25 0 0 0-.25.25v5.007a1.75 1.75 0 0 1-1.75 1.75h-3.5A1.75 1.75 0 0 1 3 19.254v-9.31c0-.663.293-1.292.8-1.72l6.75-5.692Zm1.933 1.147a.75.75 0 0 0-.966 0L4.767 9.37a.75.75 0 0 0-.267.573v9.31c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-5.007c0-.967.784-1.75 1.75-1.75h3.5c.966 0 1.75.783 1.75 1.75v5.007c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-9.31a.75.75 0 0 0-.267-.573l-6.75-5.692Z"/></svg>
     
@@ -29,12 +29,12 @@
             </nuxt-link>
         </div>
     
-        <header class="dark:bg-gray-800">
+        <header>
             <nav class="py-8 px-3 md:px-0">
                 <div class="container">
                     <div class="flex items-center justify-between">
-                        <nuxt-link to="/" class="text-base font-medium flex items-center gap-2 dark:text-gray-100">
-                            <img class="w-10 dark:grayscale dark:invert" src="/logo.svg" alt="Mark Paul Cañeda">
+                        <nuxt-link to="/" class="text-base font-medium flex items-center gap-3 dark:text-gray-100">
+                            <img class="w-12 h-12 object-cover object-top rounded-full" src="~assets/img/me.jpg" alt="Mark Paul Cañeda">
                             Mark Paul Cañeda
                         </nuxt-link>
     
@@ -80,44 +80,46 @@
             <slot />
         </main>
     
-        <footer class="py-24 px-3 md:px-0 dark:bg-gray-800">
+        <footer class="py-24 px-3 md:px-0">
             <div class="container">
                 <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
                     <div class="sm:col-span-2">
                         <h2 class="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">
-                            Join the newsletter
+                            Mark Paul Cañeda
                         </h2>
     
-                        <p class="text-sm text-gray-700 mt-3 lg:max-w-md dark:text-gray-100">
-                            I send a monthly email newsletter to keep you informed about my latest discoveries and projects.
+                        <p class="text mt-3 lg:max-w-md">
+                            I build stunning websites that your users will love. I work closely with you from start to finish to make sure that your vision is realized and that your users have a great experience.
                         </p>
-    
-                        <div class="flex flex-col mx-auto gap-3 mt-6 space-y-3 md:space-y-0 md:flex-row">
-                            <input id="email" type="text" class="px-4 py-2 text-gray-700 bg-gray-100 border rounded-xl dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-primary-400 dark:focus:border-primary-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-primary-300" placeholder="Enter your email" autocomplete="email">
-                    
-                            <button class="button button-dark">
-                                Sign up
-                            </button>
+
+                        <div class="flex items-center gap-2 mt-4">
+                            <nuxt-link to="https://github.com/gitmarkpaul" class="button button-link px-2 py-2" target="__blank" rel="noopener noreferrer" title="Github">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path fill="currentColor" d="M256 32C132.3 32 32 134.9 32 261.7c0 101.5 64.2 187.5 153.2 217.9a17.56 17.56 0 0 0 3.8.4c8.3 0 11.5-6.1 11.5-11.4c0-5.5-.2-19.9-.3-39.1a102.4 102.4 0 0 1-22.6 2.7c-43.1 0-52.9-33.5-52.9-33.5c-10.2-26.5-24.9-33.6-24.9-33.6c-19.5-13.7-.1-14.1 1.4-14.1h.1c22.5 2 34.3 23.8 34.3 23.8c11.2 19.6 26.2 25.1 39.6 25.1a63 63 0 0 0 25.6-6c2-14.8 7.8-24.9 14.2-30.7c-49.7-5.8-102-25.5-102-113.5c0-25.1 8.7-45.6 23-61.6c-2.3-5.8-10-29.2 2.2-60.8a18.64 18.64 0 0 1 5-.5c8.1 0 26.4 3.1 56.6 24.1a208.21 208.21 0 0 1 112.2 0c30.2-21 48.5-24.1 56.6-24.1a18.64 18.64 0 0 1 5 .5c12.2 31.6 4.5 55 2.2 60.8c14.3 16.1 23 36.6 23 61.6c0 88.2-52.4 107.6-102.3 113.3c8 7.1 15.2 21.1 15.2 42.5c0 30.7-.3 55.5-.3 63c0 5.4 3.1 11.5 11.4 11.5a19.35 19.35 0 0 0 4-.4C415.9 449.2 480 363.1 480 261.7C480 134.9 379.7 32 256 32Z"/></svg>
+                            </nuxt-link>
+
+                            <nuxt-link to="https://www.linkedin.com/in/mark-paul-caneda-b5a1911a0/" class="button button-link px-2 py-2" target="__blank" rel="noopener noreferrer" title="Linkedin">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path fill="currentColor" d="M444.17 32H70.28C49.85 32 32 46.7 32 66.89v374.72C32 461.91 49.85 480 70.28 480h373.78c20.54 0 35.94-18.21 35.94-38.39V66.89C480.12 46.7 464.6 32 444.17 32Zm-273.3 373.43h-64.18V205.88h64.18ZM141 175.54h-.46c-20.54 0-33.84-15.29-33.84-34.43c0-19.49 13.65-34.42 34.65-34.42s33.85 14.82 34.31 34.42c-.01 19.14-13.31 34.43-34.66 34.43Zm264.43 229.89h-64.18V296.32c0-26.14-9.34-44-32.56-44c-17.74 0-28.24 12-32.91 23.69c-1.75 4.2-2.22 9.92-2.22 15.76v113.66h-64.18V205.88h64.18v27.77c9.34-13.3 23.93-32.44 57.88-32.44c42.13 0 74 27.77 74 87.64Z"/></svg>
+                            </nuxt-link>
+
+                            <nuxt-link to="https://www.instagram.com/markpaulacebo/" class="button button-link px-2 py-2" target="__blank" rel="noopener noreferrer" title="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path fill="currentColor" d="M349.33 69.33a93.62 93.62 0 0 1 93.34 93.34v186.66a93.62 93.62 0 0 1-93.34 93.34H162.67a93.62 93.62 0 0 1-93.34-93.34V162.67a93.62 93.62 0 0 1 93.34-93.34h186.66m0-37.33H162.67C90.8 32 32 90.8 32 162.67v186.66C32 421.2 90.8 480 162.67 480h186.66C421.2 480 480 421.2 480 349.33V162.67C480 90.8 421.2 32 349.33 32Z"/><path fill="currentColor" d="M377.33 162.67a28 28 0 1 1 28-28a27.94 27.94 0 0 1-28 28ZM256 181.33A74.67 74.67 0 1 1 181.33 256A74.75 74.75 0 0 1 256 181.33m0-37.33a112 112 0 1 0 112 112a112 112 0 0 0-112-112Z"/></svg>
+                            </nuxt-link>
+
+                            <nuxt-link to="tel:09275942058" class="button button-link px-2 py-2" title="Whatsapp">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path fill="currentColor" fill-rule="evenodd" d="M414.73 97.1A222.14 222.14 0 0 0 256.94 32C134 32 33.92 131.58 33.87 254a220.61 220.61 0 0 0 29.78 111L32 480l118.25-30.87a223.63 223.63 0 0 0 106.6 27h.09c122.93 0 223-99.59 223.06-222A220.18 220.18 0 0 0 414.73 97.1ZM256.94 438.66h-.08a185.75 185.75 0 0 1-94.36-25.72l-6.77-4l-70.17 18.32l18.73-68.09l-4.41-7A183.46 183.46 0 0 1 71.53 254c0-101.73 83.21-184.5 185.48-184.5a185 185 0 0 1 185.33 184.64c-.04 101.74-83.21 184.52-185.4 184.52Zm101.69-138.19c-5.57-2.78-33-16.2-38.08-18.05s-8.83-2.78-12.54 2.78s-14.4 18-17.65 21.75s-6.5 4.16-12.07 1.38s-23.54-8.63-44.83-27.53c-16.57-14.71-27.75-32.87-31-38.42s-.35-8.56 2.44-11.32c2.51-2.49 5.57-6.48 8.36-9.72s3.72-5.56 5.57-9.26s.93-6.94-.46-9.71s-12.54-30.08-17.18-41.19c-4.53-10.82-9.12-9.35-12.54-9.52c-3.25-.16-7-.2-10.69-.2a20.53 20.53 0 0 0-14.86 6.94c-5.11 5.56-19.51 19-19.51 46.28s20 53.68 22.76 57.38s39.3 59.73 95.21 83.76a323.11 323.11 0 0 0 31.78 11.68c13.35 4.22 25.5 3.63 35.1 2.2c10.71-1.59 33-13.42 37.63-26.38s4.64-24.06 3.25-26.37s-5.11-3.71-10.69-6.48Z"/></svg>
+                            </nuxt-link>
                         </div>
                     </div>
     
                     <div>
                         <p class="font-semibold text-gray-800 dark:text-white">Quick Links</p>
     
-                        <div class="flex flex-col items-start mt-5 space-y-2">
+                        <div class="flex flex-col items-start mt-5 space-y-6">
                             <nuxt-link to="/" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-primary-400 hover:underline hover:text-primary-500">Home</nuxt-link>
                             <nuxt-link to="/about" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-primary-400 hover:underline hover:text-primary-500">About</nuxt-link>
                             <nuxt-link to="/projects" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-primary-400 hover:underline hover:text-primary-500">Projects</nuxt-link>
-                        </div>
-                    </div>
-    
-                    <div>
-                        <p class="font-semibold text-gray-800 dark:text-white">Industries</p>
-    
-                        <div class="flex flex-col items-start mt-5 space-y-2">
                             <nuxt-link to="/services" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-primary-400 hover:underline hover:text-primary-500">Services</nuxt-link>
                             <nuxt-link to="/contact" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-primary-400 hover:underline hover:text-primary-500">Contact</nuxt-link>
-                            <a href="#" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-primary-400 hover:underline hover:text-primary-500">Newsletter</a>
                         </div>
                     </div>
                 </div>

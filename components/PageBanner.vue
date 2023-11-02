@@ -7,7 +7,7 @@
 </script>
 
 <template>
-    <section class="py-20 dark:bg-gray-800">
+    <section class="py-20">
         <div class="container">
             <div class="md:max-w-3xl mx-auto text-center">
                 <span class="text-xl text-gray-700 font-semibold dark:text-gray-100 animate__animated animate__fadeInUp"  v-if="uppertext">

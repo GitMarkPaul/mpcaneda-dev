@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <section class="py-24 dark:bg-gray-800">
+    <section class="py-24">
         <div class="container">
             <div class="md:max-w-3xl mx-auto text-center">
                 <span class="text-xl text-gray-700 font-semibold dark:text-gray-100 animate__animated animate__fadeInUp">
@@ -19,7 +19,7 @@
         </div>
     </section>
 
-    <section class="py-24 dark:bg-gray-800">
+    <section class="py-24">
         <div class="container">
             <h2 class="title" data-aos="fade-up">
                 Everything you need for a perfect website
