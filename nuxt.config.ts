@@ -71,6 +71,7 @@ export default defineNuxtConfig({
 		}
 	},
 	image: {
+		target: 'static',
 		dir: 'assets/img',
 		inject: true,
 		format: [

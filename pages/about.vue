@@ -10,7 +10,7 @@
     <section class="pb-16">
         <div class="container">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 md:items-center lg:max-w-5xl mx-auto">
-                <nuxt-img class="w-full md:h-2/3 object-cover object-top rounded-2xl dark:brightness-75" src="/me.png" data-aos="fade-up" data-aos-duration="500" loading="lazy" alt="Mark Paul" />
+                <img class="w-full md:h-2/3 object-cover object-top rounded-2xl dark:brightness-75" src="~/assets/img/me.png" data-aos="fade-up" data-aos-duration="500" loading="lazy" alt="Mark Paul" />
                 <div class="space-y-6" data-aos="fade-up" data-aos-duration="1000">
                     <p class="text">
                         I'm a web developer who works with teams from around the globe to build and maintain high-quality websites.
