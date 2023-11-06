@@ -34,7 +34,7 @@
                 <div class="container">
                     <div class="flex items-center justify-between">
                         <nuxt-link to="/" class="text-base font-medium flex items-center gap-3 dark:text-gray-100">
-                            <nuxt-img class="w-12 h-12 object-cover object-top rounded-full" src="/me.png" />
+                            <nuxt-img class="w-12 h-12 object-cover object-top rounded-full" src="/me.png" alt="Mark Paul" />
                             
                             Mark Paul Cañeda
                         </nuxt-link>
