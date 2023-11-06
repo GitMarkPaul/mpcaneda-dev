@@ -17,7 +17,8 @@ export default defineNuxtConfig({
 	},
 	modules: [
 		'@nuxtjs/color-mode',
-		'@pinia/nuxt'
+		'@pinia/nuxt',
+		'@nuxt/image',
 	],
 	colorMode: {
 		classSuffix: ''
@@ -69,4 +70,11 @@ export default defineNuxtConfig({
 			],
 		}
 	},
+	image: {
+		dir: 'assets/img',
+		inject: true,
+		format: [
+			'webp'
+		]
+	}
 })
