@@ -6,7 +6,7 @@
 
 <template>
     <div class="bg-white dark:bg-gray-950">
-        <div class="tab-menu fixed bottom-2 right-2 left-2 py-3 px-4 rounded-2xl border shadow-sm bg-gray-100/60 backdrop-blur-md z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4 dark:bg-gray-800/60 dark:border-gray-700 animate__animated animate__bounceInUp" role="tab">
+        <div class="tab-menu fixed bottom-2 right-2 left-2 py-3 px-4 rounded-2xl border shadow-sm bg-gray-100/60 backdrop-blur-md z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4 dark:bg-gray-800/60 dark:border-gray-700 animate__animated animate__bounceInUp">
             <nuxt-link to="/" class="text-xs text-gray-700 flex flex-col items-center gap-1 dark:text-gray-100">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M10.55 2.532a2.25 2.25 0 0 1 2.9 0l6.75 5.692c.507.428.8 1.057.8 1.72v9.31a1.75 1.75 0 0 1-1.75 1.75h-3.5a1.75 1.75 0 0 1-1.75-1.75v-5.007a.25.25 0 0 0-.25-.25h-3.5a.25.25 0 0 0-.25.25v5.007a1.75 1.75 0 0 1-1.75 1.75h-3.5A1.75 1.75 0 0 1 3 19.254v-9.31c0-.663.293-1.292.8-1.72l6.75-5.692Zm1.933 1.147a.75.75 0 0 0-.966 0L4.767 9.37a.75.75 0 0 0-.267.573v9.31c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-5.007c0-.967.784-1.75 1.75-1.75h3.5c.966 0 1.75.783 1.75 1.75v5.007c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-9.31a.75.75 0 0 0-.267-.573l-6.75-5.692Z"/></svg>
     
@@ -34,7 +34,7 @@
                 <div class="container">
                     <div class="flex items-center justify-between">
                         <nuxt-link to="/" class="text-base font-medium flex items-center gap-3 dark:text-gray-100">
-                            <img class="w-12 h-12 object-cover object-top rounded-full" src="~assets/img/me.png" alt="Mark Paul Cañeda">
+                            <img class="w-12 h-12 object-cover object-top rounded-full" src="~assets/img/me.png" alt="Mark Paul">
                             Mark Paul Cañeda
                         </nuxt-link>
     
