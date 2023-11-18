@@ -19,6 +19,7 @@ export default defineNuxtConfig({
 		'@nuxtjs/color-mode',
 		'@pinia/nuxt',
 		'@nuxt/image',
+        '@vite-pwa/nuxt',
 	],
 	colorMode: {
 		classSuffix: ''
@@ -77,5 +78,43 @@ export default defineNuxtConfig({
 		format: [
 			'webp'
 		]
-	}
+	},
+    pwa: {
+		manifest: {
+			name: 'MPC',
+			short_name: 'MPC',
+			description: 'I create visually appealing and user-friendly websites that are easy for your team to update and deliver a seamless experience for your customers.',
+			theme_color: '#ffffff',
+			background_color: '#ffffff',
+			icons: [
+				{
+					src: 'pwa-64x64.png',
+					sizes: '64x64',
+					type: 'image/png'
+				},
+				{
+					src: 'pwa-192x192.png',
+					sizes: '192x192',
+					type: 'image/png'
+				},
+				{
+					src: 'pwa-512x512.png',
+					sizes: '512x512',
+					type: 'image/png',
+					purpose: 'any'  
+				},
+				{
+					src: 'maskable-icon-512x512.png',
+					sizes: '512x512',
+					type: 'image/png',
+					purpose: 'maskable'
+				}
+			]
+		},
+		registerType: 'autoUpdate',
+        devOptions: {
+			enabled: true,
+			type: 'module',
+		},
+	},
 })
