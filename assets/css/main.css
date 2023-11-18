@@ -37,7 +37,7 @@
     }
 
     .button-secondary {
-        @apply bg-gray-100 text-gray-700 hover:scale-105 dark:bg-gray-700 dark:text-gray-100;
+        @apply bg-gray-100 text-gray-700 hover:scale-105 dark:bg-gray-800 dark:text-gray-100;
     }
 
 
