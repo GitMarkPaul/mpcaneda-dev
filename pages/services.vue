@@ -104,47 +104,47 @@
             </div>
 
             <div class="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 md:gap-10 gap-5">
-                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-700 dark:border-gray-800" data-aos="fade-up" data-aos-duration="500">
+                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-800" data-aos="fade-up" data-aos-duration="500">
                     <div class="font-bold text-xl mb-3 text-gray-600 dark:text-gray-200">UI-UX Design</div>
                     <p class="text-gray-500 text-base dark:text-gray-300">Crafting intuitive & visually appealing UI-UX designs that enhance user experiences. Proficient in wireframing, prototyping, & responsive design.</p>
                 </div>
 
-                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-700 dark:border-gray-800" data-aos="fade-up" data-aos-duration="1000">
+                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-800" data-aos="fade-up" data-aos-duration="1000">
                     <div class="font-bold text-xl mb-3 text-gray-600 dark:text-gray-200">Web Design & Development</div>
                     <p class="text-gray-500 text-base dark:text-gray-300">Mastering the art of Web Design & Development, equipped with expertise in crafting captivating and functional online experiences.</p>
                 </div>
 
-                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-700 dark:border-gray-800" data-aos="fade-up" data-aos-duration="1500">
+                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-800" data-aos="fade-up" data-aos-duration="1500">
                     <div class="font-bold text-xl mb-3 text-gray-600 dark:text-gray-200">E-commerce Development</div>
                     <p class="text-gray-500 text-base dark:text-gray-300">Expert in E-commerce Dev. Skilled in creating seamless online stores, payment integration, and user-friendly interfaces.</p>
                 </div>
 
-                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-700 dark:border-gray-800" data-aos="fade-up" data-aos-duration="2000">
+                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-800" data-aos="fade-up" data-aos-duration="2000">
                     <div class="font-bold text-xl mb-3 text-gray-600 dark:text-gray-200">Mobile App Development</div>
                     <p class="text-gray-500 text-base dark:text-gray-300">Crafting seamless user experiences, transforming ideas into functional iOS and Android apps with expertise in Angular, and Ionic Framework.</p>
                 </div>
 
-                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-700 dark:border-gray-800" data-aos="fade-up" data-aos-duration="2500">
+                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-800" data-aos="fade-up" data-aos-duration="2500">
                     <div class="font-bold text-xl mb-3 text-gray-600 dark:text-gray-200">Web-based Applications</div>
                     <p class="text-gray-500 text-base dark:text-gray-300">Proficient in designing, developing, and deploying user-friendly, responsive web apps. Expertise in HTML, CSS, JavaScript, and modern framework like Vuejs.</p>
                 </div>
 
-                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-700 dark:border-gray-800" data-aos="fade-up" data-aos-duration="3000">
+                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-800" data-aos="fade-up" data-aos-duration="3000">
                     <div class="font-bold text-xl mb-3 text-gray-600 dark:text-gray-200">Website Redesigned</div>
                     <p class="text-gray-500 text-base dark:text-gray-300">Revamped website showcasing honed skills and expertise. User-friendly design, seamless navigation, and engaging content.</p>
                 </div>
 
-                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-700 dark:border-gray-800" data-aos="fade-up" data-aos-duration="3500">
+                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-800" data-aos="fade-up" data-aos-duration="3500">
                     <div class="font-bold text-xl mb-3 text-gray-600 dark:text-gray-200">Search Engine Optimization</div>
                     <p class="text-gray-500 text-base dark:text-gray-300">Optimize skills with SEO: Boost visibility & rankings! Improve keyword usage, meta tags, link building & content strategy. Drive organic growth.</p>
                 </div>
 
-                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-700 dark:border-gray-800" data-aos="fade-up" data-aos-duration="4000">
+                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-800" data-aos="fade-up" data-aos-duration="4000">
                     <div class="font-bold text-xl mb-3 text-gray-600 dark:text-gray-200">Progressive Web Apps</div>
                     <p class="text-gray-500 text-base dark:text-gray-300">Proficient in developing Progressive Web Apps (PWAs) - web applications that offer native app-like experiences, enhancing user engagement.</p>
                 </div>
 
-                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-700 dark:border-gray-800" data-aos="fade-up" data-aos-duration="4500">
+                <div class="bg-white shadow-sm border w-full rounded-lg p-6 transition-all duration-300 ease-in-out hover:bg-gray-50 dark:bg-gray-800 dark:border-gray-800" data-aos="fade-up" data-aos-duration="4500">
                     <div class="font-bold text-xl mb-3 text-gray-600 dark:text-gray-200">Responsive Website Design</div>
                     <p class="text-gray-500 text-base dark:text-gray-300">Crafting dynamic, user-friendly websites that adapt seamlessly to any device, delivering optimal user experiences.</p>
                 </div>

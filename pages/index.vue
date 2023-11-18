@@ -8,17 +8,17 @@
     <section class="py-24">
         <div class="container">
             <div class="md:max-w-3xl mx-auto text-center">
-                <span class="text-xl text-gray-700 font-semibold dark:text-gray-100 animate__animated animate__fadeInUp">
+                <span class="text-xl text-gray-700 font-semibold dark:text-gray-400 animate__animated animate__fadeInUp">
                     Plan. Execute. Evolve.
                 </span>
-                <h1 class="text-4xl md:text-6xl text-gray-800 font-semibold leading-2 mt-3 md:mt-7 mb-10 dark:text-gray-50 animate__animated animate__fadeInUp">
+                <h1 class="text-4xl md:text-6xl text-gray-800 font-semibold leading-2 mt-3 md:mt-7 mb-10 dark:text-gray-300 animate__animated animate__fadeInUp">
                     I design websites that are visually appealing
                 </h1>
                 <nuxt-link to="/contact" class="button button-primary animate__animated animate__fadeInUp">Make it happen</nuxt-link>
             </div>
         </div>
     </section>
-
+    
     <section class="py-24">
         <div class="container">
             <h2 class="title" data-aos="fade-up">

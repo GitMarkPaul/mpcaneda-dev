@@ -5,8 +5,8 @@
 </script>
 
 <template>
-    <div class="bg-white dark:bg-gray-950">
-        <div class="tab-menu fixed bottom-2 right-2 left-2 py-3 px-4 rounded-2xl border shadow-sm bg-gray-100/60 backdrop-blur-md z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4 dark:bg-gray-800/60 dark:border-gray-700 animate__animated animate__bounceInUp">
+    <div class="bg-white dark:bg-gray-900">
+        <div class="tab-menu fixed bottom-2 right-2 left-2 py-3 px-4 rounded-2xl border shadow-sm bg-gray-100/60 backdrop-blur-lg z-10 max-w-md mx-auto md:hidden flex items-center justify-around gap-4 dark:bg-gray-800/60 dark:border-gray-700 animate__animated animate__bounceInUp">
             <nuxt-link to="/" class="text-xs text-gray-700 flex flex-col items-center gap-1 dark:text-gray-100">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M10.55 2.532a2.25 2.25 0 0 1 2.9 0l6.75 5.692c.507.428.8 1.057.8 1.72v9.31a1.75 1.75 0 0 1-1.75 1.75h-3.5a1.75 1.75 0 0 1-1.75-1.75v-5.007a.25.25 0 0 0-.25-.25h-3.5a.25.25 0 0 0-.25.25v5.007a1.75 1.75 0 0 1-1.75 1.75h-3.5A1.75 1.75 0 0 1 3 19.254v-9.31c0-.663.293-1.292.8-1.72l6.75-5.692Zm1.933 1.147a.75.75 0 0 0-.966 0L4.767 9.37a.75.75 0 0 0-.267.573v9.31c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-5.007c0-.967.784-1.75 1.75-1.75h3.5c.966 0 1.75.783 1.75 1.75v5.007c0 .138.112.25.25.25h3.5a.25.25 0 0 0 .25-.25v-9.31a.75.75 0 0 0-.267-.573l-6.75-5.692Z"/></svg>
     
@@ -29,12 +29,12 @@
             </nuxt-link>
         </div>
     
-        <header>
+        <header class="relative z-10">
             <nav class="py-8 px-3 md:px-0">
                 <div class="container">
                     <div class="flex items-center justify-between">
                         <nuxt-link to="/" class="text-base font-medium flex items-center gap-3 dark:text-gray-100">
-                            <img class="w-12 h-12 object-cover object-top rounded-full" src="~/assets/img/me.png" alt="Mark Paul" />
+                            <img class="w-12 h-12 object-cover object-top rounded-full" src="/logo.png" alt="Mark Paul" />
                             
                             Mark Paul Cañeda
                         </nuxt-link>
@@ -85,11 +85,11 @@
             <div class="container">
                 <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
                     <div class="sm:col-span-2">
-                        <h2 class="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-white">
+                        <h2 class="max-w-lg text-xl font-semibold tracking-tight text-gray-800 xl:text-2xl dark:text-gray-300">
                             Mark Paul Cañeda
                         </h2>
     
-                        <p class="text mt-3 lg:max-w-md">
+                        <p class="text mt-3 lg:max-w-md dark:text-gray-300">
                             I build stunning websites that your users will love. I work closely with you from start to finish to make sure that your vision is realized and that your users have a great experience.
                         </p>
 
@@ -113,7 +113,7 @@
                     </div>
     
                     <div>
-                        <p class="font-semibold text-gray-800 dark:text-white">Quick Links</p>
+                        <p class="font-semibold text-gray-800 dark:text-gray-400">Quick Links</p>
     
                         <div class="flex flex-col items-start mt-5 space-y-6">
                             <nuxt-link to="/" class="text-gray-600 transition-colors duration-300 dark:text-gray-300 dark:hover:text-primary-400 hover:underline hover:text-primary-500">Home</nuxt-link>

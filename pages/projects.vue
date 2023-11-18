@@ -29,10 +29,10 @@
                         <p class="text-lg tracking-wider text-primary-500 uppercase dark:text-primary-200">
                             {{ project.category }}
                         </p>
-                        <h2 class="my-3 text-4xl font-semibold text-gray-800 dark:text-white group-hover:underline">
+                        <h2 class="my-3 text-4xl font-semibold text-gray-800 dark:text-gray-300 group-hover:underline">
                             {{ project.title }}
                         </h2>
-                        <p class="text-base md:max-w-lg line-clamp-4 mb-8 dark:text-gray-100">
+                        <p class="text-base md:max-w-lg line-clamp-4 mb-8 dark:text-gray-300">
                             {{ project.description }}
                         </p>
 
