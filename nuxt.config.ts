@@ -25,8 +25,6 @@ export default defineNuxtConfig({
 		classSuffix: ''
 	},
 	app: {
-		baseURL: '/mpcaneda-dev/',
-    	buildAssetsDir: 'assets',
 		head: {
 			htmlAttrs: {
 				lang: 'en',
